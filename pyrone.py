@@ -103,46 +103,46 @@ async def restart(_, __):
 
 if M1:
     M1.add_handler(MessageHandler(pyrone, filters.command(["AJJA"], prefixes=None) & filters.me))
-    M1.add_handler(MessageHandler(restart, filters.command(["XD"], prefixes=None) & filters.me))
+    M1.add_handler(MessageHandler(restart, filters.command(["RANDI"], prefixes=None) & filters.me))
 
 if M2:
     M2.add_handler(MessageHandler(pyrone, filters.command(["AJJA"], prefixes=None) & filters.me))
-    M2.add_handler(MessageHandler(restart, filters.command(["XD"], prefixes=None) & filters.me))
+    M2.add_handler(MessageHandler(restart, filters.command(["RANDI"], prefixes=None) & filters.me))
 
 if M3:
     M3.add_handler(MessageHandler(pyrone, filters.command(["AJJA"], prefixes=None) & filters.me))
-    M3.add_handler(MessageHandler(restart, filters.command(["XD"], prefixes=None) & filters.me))
+    M3.add_handler(MessageHandler(restart, filters.command(["RANDI"], prefixes=None) & filters.me))
 
 if M4:
     M4.add_handler(MessageHandler(pyrone, filters.command(["AJJA"], prefixes=None) & filters.me))
-    M4.add_handler(MessageHandler(restart, filters.command(["XD"], prefixes=None) & filters.me))
+    M4.add_handler(MessageHandler(restart, filters.command(["RANDI"], prefixes=None) & filters.me))
 
 if M5:
     M5.add_handler(MessageHandler(pyrone, filters.command(["AJJA"], prefixes=None) & filters.me))
-    M5.add_handler(MessageHandler(restart, filters.command(["XD"], prefixes=None) & filters.me))
+    M5.add_handler(MessageHandler(restart, filters.command(["RANDI"], prefixes=None) & filters.me))
 
 
 # STARTING CLIENTS
 
 if M1:
     M1.start()
-    M1.join_chat("TheAltron")
+    M1.join_chat("WAJAH_U_HO")
 
 if M2:
     M2.start()
-    M2.join_chat("TheAltron")
+    M2.join_chat("WAJAH_U_HO")
 
 if M3:
     M3.start()
-    M3.join_chat("TheAltron")
+    M3.join_chat("WAJAH_U_HO")
 
 if M4:
     M4.start()
-    M4.join_chat("TheAltron")
+    M4.join_chat("WAJAH_U_HO")
 
 if M5:
     M5.start()
-    M5.join_chat("TheAltron")
+    M5.join_chat("WAJAH_U_HO")
 
 print("Pyrone Started Successfully")
 
