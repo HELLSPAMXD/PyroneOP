@@ -21,7 +21,7 @@ SESSION5 = getenv('SESSION5', default=None)
 # ------------- CLIENTS -------------
 
 if SESSION1:
-    M1 = Client(SESSION1, api_id=26432634, api_hash="d0168f393de4cd6f8d1a3d1992b8b84f
+    M1 = Client(SESSION1, api_id=26432634, api_hash="d0168f393de4cd6f8d1a3d1992b8b84f")
     M1 = None
 
 if SESSION2:
