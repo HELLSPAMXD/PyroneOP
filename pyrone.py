@@ -21,27 +21,26 @@ SESSION5 = getenv('SESSION5', default=None)
 # ------------- CLIENTS -------------
 
 if SESSION1:
-    M1 = Client(SESSION1, api_id=23330007, api_hash="59b6d22c9fd9538b0088fb8453234bff")
-else:
+    M1 = Client(SESSION1, api_id=26432634, api_hash="d0168f393de4cd6f8d1a3d1992b8b84f
     M1 = None
 
 if SESSION2:
-    M2 = Client(SESSION2, api_id=23330007, api_hash="59b6d22c9fd9538b0088fb8453234bff")
+    M2 = Client(SESSION2, api_id=26432634, api_hash="d0168f393de4cd6f8d1a3d1992b8b84f")
 else:
     M2 = None
 
 if SESSION3:
-    M3 = Client(SESSION3, api_id=23330007, api_hash="59b6d22c9fd9538b0088fb8453234bff")
+    M3 = Client(SESSION3, api_id=26432634, api_hash="d0168f393de4cd6f8d1a3d1992b8b84f")
 else:
     M3 = None
 
 if SESSION4:
-    M4 = Client(SESSION4, api_id=23330007, api_hash="59b6d22c9fd9538b0088fb8453234bff")
+    M4 = Client(SESSION4, api_id=26432634, api_hash="d0168f393de4cd6f8d1a3d1992b8b84f")
 else:
     M4 = None
 
 if SESSION5:
-    M5 = Client(SESSION5, api_id=23330007, api_hash="59b6d22c9fd9538b0088fb8453234bff")
+    M5 = Client(SESSION5, api_id=26432634, api_hash="d0168f393de4cd6f8d1a3d1992b8b84f")
 else:
     M5 = None
 
@@ -50,14 +49,14 @@ ONE_WORDS = ["MADARCHODD", "TUJHE", "PELTA", "HU", "BAAP", "SE", "BHIR", "GYA NA
              "TERI", "MAA", "KI", "CHUT", "MEIN", "MERA", "LUND", "AUR", "TERI", "MAA", "KI", "CHUT", "FAAD", "DUNGA", "CHUTIYE", "TERA", "BAAP",
            "HU", "MAI", "BACHE", "SPEED", "PAKAD", "BHEN KE LAUDE", "TERI MAA", "KI CHUT", "MEIN", "KUTTE KI", "TATTI",
            "MAI AB", "TERI ", "MAA", "KO", "KUTTIYA", "KI", "TARAH", "CHODUNGA", "TERI", "MAA", "KE", "BHOSDE",
-           "MEIN", "LOUD SPEAKER", "DAAL", "KAR", "BASS", "BOOSTED", "SONG", "SUNUNGA", "PURI",
+           "MEIN", "LOUD SPEAKER", "DAAL", "KAR", "MAA", "Chodduu", "SONG", "SUNUNGA", "PURI",
            "RAAT", "LAGATAR", "TERI", "BHEN", "KO", "AIDS KE", "PATIENT", "SE CHODWAUNGA", "TERI", "BHEN", "KE", "BOOBS",
            "DABAUNGA","MADARCHOD","TERI","MAA","KAA","CHUT","MARUGA","RANDI","KEE","PILEE","TERI","MAA","KAA","BHOSDAA",
            "MARU","SUAR","KEE","CHODE","TERE","GAAND","MEIN","BAWASIR","CHUTIYA","RANDI","KEE","PILLE","TERE","LUND",
            "MEIN","NASBANDI","KRWA","DUNGA","BEHENCHOD","TERA","BAAP","APNI","PATNI","KO","MERE PAS","LAYA",
-           "THA","CHUDWANE","LAURE","AUR SUN","SHIVAM OP","BOLTE","BETA HAI TU","MERA","MAI SHIVAM","TERA","BAAP HU","RANDI KE",
+           "THA","CHUDWANE","LAURE","AUR SUN","JalJala OP","BOLTE","BETA HAI TU","MERA","MAI SHIVAM","TERA","BAAP HU","RANDI KE",
            "PILLE","GAANDU","TERII","BEHEN","KAAA","BOOBS","MEIN","INJECTION","GHUSERU","LAURE","TERA","APNA","DNA","KRWA",
-           "SHIVAM","TERA","BAAP","NIKLEGA","TERA","PURE","KHANDAN", "KO", "CHODUNGAA","BAAP","SEE","BAKCHODI","KAREGAA","SUARR",
+           "JALJALA","TERA","BAAP","NIKLEGA","TERA","PURE","KHANDAN", "KO", "CHODUNGAA","BAAP","SEE","BAKCHODI","KAREGAA","SUARR",
            "KEEE","PILLEE","TERA","LAURA","KAAT KE","FEK","DUNGA","BAAP", "BOL", "MEREKO", "TERI", "BHEN", "KA", "GAAND", "CHAURA",
            "AUR", "TU", "BETAA","CHUSS","LEEE",
            "MERAA","LOURA","JAISE","ALUU","KAAA","PAKORA","TERI","MAAA","BHEN","GF","MAUSI","DIN", "RAAT","SOTEE",
@@ -74,7 +73,7 @@ ONE_WORDS = ["MADARCHODD", "TUJHE", "PELTA", "HU", "BAAP", "SE", "BHIR", "GYA NA
            "MAA","150","MEIN","BIK","JAATI","AUR","TERI","BHEN", "KE", "TIGHT", "CHUT KO",
            "CHOD CHOD", "KAR", "LOOSE", "KAR DUNGA","AUR","TERI","MAA KE","CHUT MEIN","HAATHI","KAA",
            "LUND","DAAL","DUNGA","BEHEN","KE","LAURE","TU","SAALE","KUTTE","KE","CHODE","INSAAAN","TERI","LULLI",
-           "KUTTE","SE BHI","CHHOTI","SMJHA NA","MADHARCHOD","BAAP SE","BAKCHODI","NAHI","SHIVAM","TERA BAAP","SPEED","PAKAR",
+           "KUTTE","SE BHI","CHHOTI","SMJHA NA","MADHARCHOD","BAAP SE","BAKCHODI","NAHI","BADDEVIL","TERA BAAP","SPEED","PAKAR",
            "MERI","BHEN KE","LAURE","CHUD","GYA","NA","BETA","APNE BAAP","SE BAKCHODI","KABHI","NAHI","KARTE","SMJHA",
            "NA","BACCHA","AUKAAT ME","RAHO","WARNA","KHANDAN","CHOD","DENGE","TUMHARI"]
 
